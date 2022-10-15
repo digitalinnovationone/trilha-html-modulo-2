@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Medica</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        h1{
+            font-family: cursive;
+        }
+        input,textarea{
+            color: black;
+            background-color: rgb(242,227,205);
+            margin-right: 150px;
+        }
+        textarea{
+            margin-left: 25%;
+        }
+        fieldset{
+            margin-left: 5%;
+            margin-right: 75%;
+            border-radius: 5px;
+            border-color: blanchedalmond;
+            background-color: #ffffff;
+        }
+        button{
+            background-color: bisque;
+            cursor: pointer;
+            margin-left: 35%;
+            margin-right: 0;
+        }
+        button :hover{
+
+            background-color: rgb(255,255,255);
+            border-radius: var(#141414);
+            color: #141414;
+        }
+        footer{
+            margin-top: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1>Clinica Medica</h1>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Sobre a clinica</a>
+                <a href="Horario.html">Horário de atendimento</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+
+            <h2>Preencha seus dados</h2>
+            <fieldset>
+                <div class="row">
+                    <legend>Dados Pessoais</legend>
+                    <form name="signup" target="_blank" autocomplete="off" onsubmit="alert('Formulário Enviado!')"
+                        method="post" action="#">
+                    
+                        <label>Nome:</label><input type="text"/>
+                        <label>Email:</label><input type="email"/>
+                        <label>Assunto:</label><input type="text"/>
+                        <textarea cols="10" rows="5">Mensagem:</textarea>
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Enviar</button>
+                    
+                </div>
+            </fieldset>
+
+            <footer>
+                <h3>Quem somos</h3>
+                <p>Referência em diferentes especialidades, a Clinica Medica  tem serviço de emergência ágil e moderno. Excelência do atendimento 24h/dia!</p>
+            </footer>
+</body>
+</html>
