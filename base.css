@@ -15,14 +15,53 @@ body {
     
 }
 .menu {
-   
+   position: absolute;
+   left: 0;
+   height: 100vh;
+   z-index: 2;
+   display: flex;
+   flex-direction: column;
 }
+
 .header {
    
 }
 .content {
     
 }
+
 .footer {
+    background-color: #072C5A;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
     
+}
+
+.central-atnd {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.telephone {
+    margin-top: 8px;
+    color: #F7C000;
+}
+
+.social-medias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-medias span {
+    color: #F7C000;
+}
+
+.social-medias img {
+    width: 138px;
+    margin-top: 8px
 }
