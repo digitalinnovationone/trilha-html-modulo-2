@@ -1,33 +1,45 @@
-html, body {
+* {
     margin: 0;
 }
 
-body {
-    background-color: #f1f1f1;
+.menu {
+    width: 200px;
+    height: auto;
+    position: absolute;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin-left: 304px;
 }
 
-.wrapper {
-   
-}
-.main {
-    
-}
-.menu {
-   position: absolute;
-   left: 0;
-   height: 100vh;
-   z-index: 2;
-   display: flex;
-   flex-direction: column;
+.blue-logo {
+    width: 245px;
+    height: 168px;
+    margin-top: 24px;
+    margin-bottom: 48px;
 }
 
 .header {
-   
+   height: 216px; 
+   width: 100%;  
+   background-color: #EFEFEF;
 }
+
+.background {
+    background-image: url(./images/head-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 216px;
+}
+
+.img-header {
+    height: 216px;
+}
+
 .content {
-    
+    width: 732px;
+    height: 234px;
+    margin: auto auto;
 }
 
 .footer {
@@ -37,7 +49,9 @@ body {
     justify-content: center;
     color: white;
     text-transform: uppercase;
-    
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .central-atnd {
