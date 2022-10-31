@@ -98,7 +98,16 @@
     .content {
         width: auto;
         height: auto;
-        margin: 140px 16px 0 16px;        
+        margin: 140px 16px 40px 16px;       
+    }
+
+    .footer {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .central-atnd, .social-medias, .address {
+        margin: 8px 0;
     }
   
 }
