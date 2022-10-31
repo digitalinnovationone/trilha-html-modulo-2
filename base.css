@@ -39,20 +39,28 @@
 .content {
     width: 732px;
     height: 234px;
-    margin: auto auto;
+    margin: 16px auto;
     color:#072C5A;
 }
 
-.footer {
-    background-color: #072C5A;   
+.title {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.footer {
+    background-color: #072C5A;     
     color: white;
     text-transform: uppercase;
     position: absolute;
     width: 100%;
     bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0;
 }
 
 .central-atnd {
@@ -79,4 +87,18 @@
 .social-medias img {
     width: 138px;
     margin-top: 8px
+}
+
+@media only screen and (max-width: 767px) {
+
+    .menu {
+       margin-left: 16px;
+    }
+
+    .content {
+        width: auto;
+        height: auto;
+        margin: 140px 16px 0 16px;        
+    }
+  
 }
