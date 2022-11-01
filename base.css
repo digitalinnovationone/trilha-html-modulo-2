@@ -24,8 +24,29 @@
    background-color: #EFEFEF;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .background {
     background-image: url(./images/head-img.jpg);
+}
+
+.bg2 {
+    background-image: url(./images/clinica.jpg);
+}
+
+.bg3 {
+    background-image: url(./images/appointment.jpg);
+}
+
+.bg4 {
+    background-image: url(./images/contact.png);
+}
+
+.background, .bg2, .bg3, .bg4 {
+    
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -38,9 +59,9 @@
 
 .content {
     width: 732px;
-    height: 234px;
+    height: auto;
     margin: 16px auto;
-    color:#072C5A;
+    color:#072C5A;    
 }
 
 .title {
@@ -54,8 +75,8 @@
     color: white;
     text-transform: uppercase;
     position: absolute;
+    bottom:0;
     width: 100%;
-    bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -87,6 +108,48 @@
 .social-medias img {
     width: 138px;
     margin-top: 8px
+}
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg .tg-c3ow{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-q1q4{
+    background-color:#072C5A;
+    border-color:inherit;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:top
 }
 
 @media only screen and (max-width: 767px) {
