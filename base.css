@@ -1,38 +1,176 @@
-html, body {
+* {
     margin: 0;
 }
-body {
-    background-color: #f1f1f1;
+
+.menu {
+    width: 200px;
+    height: auto;
+    position: absolute;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin-left: 304px;
 }
 
-.wrapper {
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+.blue-logo {
+    width: 245px;
+    height: 168px;
+    margin-top: 24px;
+    margin-bottom: 48px;
 }
-.main {
-    display: flex;
-    flex-flow: column;
-    width: 85%;
-}
-.menu {
-    width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
-}
+
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+   height: 216px; 
+   width: 100%;  
+   background-color: #EFEFEF;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    background-image: url(./images/head-img.jpg);
+}
+
+.bg2 {
+    background-image: url(./images/clinica.jpg);
+}
+
+.bg3 {
+    background-image: url(./images/appointment.jpg);
+}
+
+.bg4 {
+    background-image: url(./images/contact.png);
+}
+
+.background, .bg2, .bg3, .bg4 {
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 216px;
+}
+
+.img-header {
+    height: 216px;
+}
+
 .content {
-    background-color: white;
-    min-height: 300px;
-    padding: 20px;
+    width: 732px;
+    height: auto;
+    margin: 16px auto;
+    color:#072C5A;    
 }
+
+.title {
+    display: flex;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: #072C5A;     
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.central-atnd {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.telephone {
+    margin-top: 8px;
+    color: #F7C000;
+}
+
+.social-medias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-medias span {
+    color: #F7C000;
+}
+
+.social-medias img {
+    width: 138px;
+    margin-top: 8px
+}
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg .tg-c3ow{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-q1q4{
+    background-color:#072C5A;
+    border-color:inherit;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:top
+}
+
+@media only screen and (max-width: 767px) {
+
+    .menu {
+       margin-left: 16px;
+    }
+
+    .content {
+        width: auto;
+        height: auto;
+        margin: 140px 16px 40px 16px;       
+    }
+
+    .footer {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .central-atnd, .social-medias, .address {
+        margin: 8px 0;
+    }
+  
 }
