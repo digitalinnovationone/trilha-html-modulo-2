@@ -1,4 +1,95 @@
 html, body {
+    margin: 15;
+}
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+th{
+    width: 50px;
+}
+.wrapper {
+    display: flex;
+    margin-right: 25px;
+}
+.main {
+    margin-left: 100px;
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    height: 100%;
+}
+.menu {
+    margin-right: 10px;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(253, 253, 253);
+    padding: 10px 20px 0px;
+    border: solid 1px black;
+    -webkit-box-shadow: 28px 16px 7px 3px rgb(141, 223, 238);
+    -moz-box-shadow: 28px 16px 7px 3px rgb(141, 223, 238);
+    box-shadow: 28px 16px 7px 3px rgb(141, 223, 238);
+}
+.header {
+    min-height: 150px;
+    margin-bottom: 15px;
+}
+.content {
+    margin-top: 15px;
+    background-color: white;
+    min-height: 200px;
+    padding: 20px;
+}
+.footer {
+    background-color:rgb(141, 223, 238);
+    margin-top: 15px; 
+    min-width: 10%;
+    height: 170px;
+    padding: 10px;
+}
+
+/* imgs */
+#img_header{
+    /* min-width: 105%; */
+    border: solid 1px black;
+    -webkit-box-shadow: 28px 16px 7px 3px rgb(141, 223, 238);
+    -moz-box-shadow: 28px 16px 7px 3px rgb(141, 223, 238);
+    box-shadow: 28px 16px 7px 3px rgb(141, 223, 238);
+}
+#logotipo{
+    width: 150px;
+    height: 150px;
+}
+#img_dog{
+    margin:15px;
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+}
+#img_dog_castracao{
+    margin:15px;
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+}
+#img_cat_1{
+    margin:15px;
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+}
+#img_dog_ouvido{
+    margin:15px;
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+}html, body {
     margin: 0;
 }
 body {
