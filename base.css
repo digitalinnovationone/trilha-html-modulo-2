@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
 }
+
 body {
     background-color: #f1f1f1;
     display: flex;
@@ -20,12 +21,16 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(4, 97, 97);
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(23, 117, 117);
     min-height: 150px;
+}
+img{
+    width:40%;
+    padding: 10px;
 }
 .content {
     background-color: white;
@@ -33,6 +38,6 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(161, 255, 224);
     min-height: 150px;
 }
