@@ -14,7 +14,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: white;
 }
 .main {
     display: flex;
