@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto+Condensed:ital,wght@1,300&display=swap');
 html, body {
     margin: 0;
 }
@@ -6,6 +7,7 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    
 }
 
 .wrapper {
@@ -21,23 +23,39 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: rgb(4, 97, 97);
+    background-color: rgb(0, 0, 0);
     padding: 10px 20px 0px;
+    text-align: center;
 }
 .header {
-    background-color: rgb(23, 117, 117);
+    background-image:linear-gradient(rgb(109, 6, 6),black);
     min-height: 150px;
+    max-height: 200px;
 }
-img{
-    width:40%;
-    padding: 10px;
+.img{
+    margin-left: 26%;
+    margin-top: -10.5%;
 }
 .content {
-    background-color: white;
+    background-color:#e6e6e6;
     min-height: 300px;
     padding: 20px;
+    text-align: center;
 }
 .footer {
-    background-color: rgb(161, 255, 224);
+    background-image:linear-gradient(rgb(109, 6, 6),black);
     min-height: 150px;
+    max-height: 200px;
+    text-align: center;
+    color: #e6e6e6;
+    
+}
+h2{
+    color:rgb(109, 6, 6);
+}
+.navegue{
+    text-align: left;
+}
+a{
+    color: rgb(255, 142, 142);
 }
