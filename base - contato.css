@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto+Condensed:ital,wght@1,300&display=swap');
 html, body {
     margin: 0;
 }
@@ -7,6 +6,7 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    
 }
 
 .wrapper {
@@ -15,39 +15,28 @@ body {
     margin: 0 auto;
     background-color: white;
 }
-.main {
-    display: flex;
-    flex-flow: column;
-    width: 85%;
-}
 .menu {
     width: 15%;
     background-color: rgb(0, 0, 0);
     padding: 10px 20px 0px;
     text-align: center;
 }
-.header {
-    background-image:linear-gradient(rgb(109, 6, 6),black);
-    min-height: 150px;
-    max-height: 200px;
-}
-.img{
-    margin-left: 26%;
-    margin-top: -10.5%;
-}
+
+
 .content {
-    background-color:#e6e6e6;
+    background-image:linear-gradient(rgb(109, 6, 6),black);
     min-height: 300px;
+    width: 100%;
     padding: 20px;
     text-align: center;
-}
-.footer {
-    background-image:linear-gradient(rgb(109, 6, 6),black);
-    min-height: 150px;
-    max-height: 200px;
-    text-align: center;
+    align-items: center;
     color: #e6e6e6;
-    
+}
+.img{
+  
+    margin-left: 9%;
+    margin-top: -10.5%;
+
 }
 h2{
     color:rgb(109, 6, 6);
@@ -57,4 +46,15 @@ h2{
 }
 a{
     color: rgb(255, 142, 142);
+}
+.iframe {
+    margin-left: 23%;
+   
+}
+.form{
+    text-align: left;
+    border-color: black;
+}
+.form sub-label{
+    font-size: 50%;
 }
