@@ -35,31 +35,20 @@ body {
     margin-left: 26%;
     margin-top: -10.5%;
 }
-.content1 {
+.content {
     background-color:#e6e6e6;
-    min-height: 200px;
-    padding: 20px;
-    text-align:center;
-}
-.content2 {
-    background-color:#e6e6e6;
-    min-height: 200px;
+    min-height: 300px;
     padding: 20px;
     text-align: center;
 }
-.content3 {
-    background-color:#e6e6e6;
-    min-height: 200px;
-    padding: 20px;
-    text-align: center;
+.content h1 {
+    color:rgb(109, 6, 6);
 }
 .footer {
     background-image:linear-gradient(rgb(109, 6, 6),black);
     min-height: 150px;
     text-align: center;
     color: #e6e6e6;
-    
-    
 }
 .footer h3{
     font-family: Arial, Helvetica, sans-serifs;
@@ -75,4 +64,16 @@ h2{
 }
 a{
     color: rgb(255, 142, 142);
+}
+table thead th{
+    background-color: black;
+    color:rgb(255, 255, 255);
+}
+table tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+
+}
+table tbody tr:hover td{
+    background-color: rgb(170, 170, 170);
+    cursor: pointer;
 }
