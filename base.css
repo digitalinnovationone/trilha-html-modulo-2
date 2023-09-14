@@ -6,6 +6,14 @@ body {
     display: flex;
     justify-content: center;
 }
+.tabela, th, td{
+    border-collapse: collapse; /*define a separação entre as bordar*/
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color: lightgray;
+}
 
 .wrapper {
     width: 1200px;
@@ -20,7 +28,7 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: rgb(35, 216, 147);
+    background-color: rgb(8, 172, 209);
     padding: 10px 20px 0px;
 }
 .header {
@@ -33,6 +41,6 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(35, 216, 147);
+    background-color: rgb(2, 120, 147);
     min-height: 150px;
 }
