@@ -19,7 +19,7 @@ th{
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: #7fffd4;
+    background-color: #ffffff;
 }
 .main {
     display: flex;
@@ -28,8 +28,19 @@ th{
 }
 .menu {
     width: 15%;
-    background-color: rgb(8, 172, 209);
+    background-color: rgb(42, 181, 212);
     padding: 10px 20px 0px;
+}
+    a:link, a:visited {
+        text-decoration: none
+        }
+    a:hover {
+        text-decoration: underline;
+        color: rgb(47, 115, 241)
+        }
+    a:active {
+        text-decoration: none
+        }
 }
 .header {
     background-color: rgb(255, 255, 255);
