@@ -38,6 +38,9 @@ body {
     flex: 1;
     padding: 10px;
 }
+.tabela{
+    align-items: center;
+}
 .imagem{
     max-width: 50%;
     padding: 10px;
