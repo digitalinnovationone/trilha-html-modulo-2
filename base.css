@@ -4,14 +4,12 @@ html, body {
 body {
     background-color: #f1f1f1;
     display: flex;
-    justify-content: center;
+    justify-content: center;   
 }
-
 .wrapper {
     width: 1200px;
     display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+    margin: 0 auto; 
 }
 .main {
     display: flex;
@@ -22,6 +20,17 @@ body {
     width: 15%;
     background-color: #18AB93;
     padding: 10px 20px 0px;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    color:#09463c
 }
 .header {
     background-color: #18AB93;
@@ -40,6 +49,14 @@ body {
 }
 .tabela{
     align-items: center;
+}
+.contatos input{
+    display: inline-block;
+    width: 200px; 
+    margin-bottom: 10px; 
+}
+.contatos button {
+    display: inline-block;
 }
 .imagem{
     max-width: 50%;
