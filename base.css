@@ -4,14 +4,12 @@ html, body {
 body {
     background-color: #f1f1f1;
     display: flex;
-    justify-content: center;
+    justify-content: center;   
 }
-
 .wrapper {
     width: 1200px;
     display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+    margin: 0 auto; 
 }
 .main {
     display: flex;
@@ -20,19 +18,70 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #18AB93;
     padding: 10px 20px 0px;
 }
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    color:#09463c
+}
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #18AB93;
     min-height: 150px;
 }
 .content {
     background-color: white;
+    display: flex;
+    align-items: center;
     min-height: 300px;
     padding: 20px;
 }
+.text {
+    flex: 1;
+    padding: 10px;
+}
+.tabela{
+    align-items: center;
+}
+.contatos input{
+    display: inline-block;
+    width: 200px; 
+    margin-bottom: 10px; 
+}
+.contatos button {
+    display: inline-block;
+}
+.imagem{
+    max-width: 50%;
+    padding: 10px;
+}
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #c6c6c6;
+    display: flex;
     min-height: 150px;
+}
+.redesSociais{
+    flex: 1;
+    max-width: 30%;
+    padding: 10px;
+}
+.contatos{
+    flex: 1;
+    max-width: 30%;
+    padding: 10px;
+}
+.email{
+    flex: 1;
+    max-width: 30%;
+    padding: 30px;
+}
+.enviar{
+    display: flex;
 }
