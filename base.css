@@ -1,14 +1,16 @@
 html, body {
     margin: 0;
+    min-height: 100%;
 }
 body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .wrapper {
-    width: 1200px;
+    width: 100%;
     display: flex;
     margin: 0 auto;
     background-color: aquamarine;
@@ -19,20 +21,59 @@ body {
     width: 85%;
 }
 .menu {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color:rgb(99, 47, 30);
+    padding: 10px 20px 0px;    
+}
+
+
+.menu ul, li{
+    padding-inline-start: 0%;
+    list-style-type: none;
+}
+
+.menu #home, #about, #officeHours, #contacts{
+    padding: 5px;
+    border-bottom: solid 1px black;
+    
+
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgb(234, 172, 142);
 }
 .content {
-    background-color: white;
+    background-color:  rgb(234, 172, 142);
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    font-weight: bold;
+    background-color: rgb(250, 241, 221);
     min-height: 150px;
+}
+
+.footer li{
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+    
+}
+.footer .whatsapp, .email {
+    position: relative;
+    right: 10px;
+
+}
+
+a:-webkit-any(:link){
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: black;
+
 }
