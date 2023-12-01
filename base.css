@@ -22,7 +22,7 @@ body {
 }
 .menu {
     font-weight: bold;
-    color: black;
+    color:rgb(234, 172, 142);
     text-decoration: none;
     width: 15%;
     background-color:rgb(99, 47, 30);
@@ -30,9 +30,9 @@ body {
 }
 
 
-.menu ul, li{
+ .menu ul, li{
     padding-inline-start: 0%;
-    list-style-type: none;
+    list-style-type:none ;
 }
 
 .menu #home, #about, #officeHours, #contacts{
@@ -43,12 +43,67 @@ body {
 }
 .header {
     background-color: rgb(234, 172, 142);
+
 }
+
+.main .about-header  {    
+    background-color: rgb(250, 241, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: ridge 4px;
+    border-color: rgb(99, 47, 30);
+}
+
+.main .header-office{
+    background-color: #ffffff;
+    border-bottom: rgb(250, 241, 221);
+
+}
+
+
+
 .content {
     background-color:  rgb(234, 172, 142);
     min-height: 300px;
     padding: 20px;
 }
+
+.content-office {
+    background-color:  rgb(234, 172, 142);
+    font-size: 15px;
+    min-height: 300px;
+    padding: 20px;
+
+}
+
+.servicos li{
+    list-style-type: disc;
+}
+
+
+.tabela table {
+    border-collapse: collapse;
+    color: black;
+    border: solid 1px;
+
+}
+
+.tabela table td {
+    color: black;
+    border: solid 1px;
+    padding: 2px;
+    background-color: rgb(234, 172, 142);
+}
+
+
+.tabela table th{
+    color: black;
+    border: solid 1px;
+    padding: 2px;
+
+}
+
 .footer {
     font-weight: bold;
     background-color: rgb(250, 241, 221);
@@ -61,6 +116,10 @@ body {
     bottom: 30px;
     
 }
+
+.footer #icon-header-about{
+    align-items: center;
+}
 .footer .whatsapp, .email {
     position: relative;
     right: 10px;
@@ -72,8 +131,8 @@ a:-webkit-any(:link){
     color: black;
 }
 
-a:visited{
+a:visited {
     text-decoration: underline;
-    color: black;
+    color: black
 
 }
