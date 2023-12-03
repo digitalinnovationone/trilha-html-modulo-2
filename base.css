@@ -1,14 +1,17 @@
 html, body {
     margin: 0;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .wrapper {
-    width: 1200px;
+    width: 100%;
     display: flex;
     margin: 0 auto;
     background-color: aquamarine;
@@ -19,20 +22,158 @@ body {
     width: 85%;
 }
 .menu {
+    font-weight: bold;
+    color:rgb(234, 172, 142);
+    text-decoration: none;
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color:rgb(99, 47, 30);
+    padding: 10px 20px 0px;    
+}
+
+
+ .menu ul, li{
+    padding-inline-start: 0%;
+    list-style-type:none ;
+}
+
+.menu #home, #about, #officeHours, #contacts{
+    padding: 5px;
+    border-bottom: solid 1px black;
+}
+
+.header #header-contacts{
+    background-color: rgb(240 , 240, 236);
+    width: 100%;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgb(234, 172, 142);
+
 }
+
+.main .about-header  {    
+    background-color: rgb(250, 241, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: ridge 4px;
+    border-color: rgb(99, 47, 30);
+}
+
+.main .header-office{
+    background-color: #ffffff;
+    border-bottom: rgb(250, 241, 221);
+
+}
+
+
+
 .content {
-    background-color: white;
+    background-color:  rgb(234, 172, 142);
     min-height: 300px;
     padding: 20px;
 }
+
+.content-office {
+    background-color:  rgb(234, 172, 142);
+    font-size: 15px;
+    min-height: 300px;
+    padding: 20px;
+
+}
+
+.content li{
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+} 
+
+.content #linkscontatos {   
+    display: block;
+    padding: 5px;   
+}
+.content h1{
+    padding: 0 0 0 6px ;
+}
+
+.email-content{
+    font-weight: bold;
+}
+
+label.form{
+    display: block;
+    padding: 2px 0 8px 0;
+    width: 90px;
+    font-weight: bold;
+}
+
+.content #mapsform{
+    border: solid 1px black;
+    margin: 20px;
+}
+.servicos li{
+    list-style-type: disc;
+}
+
+
+.tabela table {
+    border-collapse: collapse;
+    color: black;
+    border: solid 1px;
+
+
+}
+
+.tabela table td {
+    color: black;
+    border: solid 1px;
+    padding: 2px;
+    background-color: rgb(234, 172, 142);
+    text-align: justify;
+}
+
+
+.tabela table th{
+    color: black;
+    border: solid 1px;
+    padding: 2px;
+
+}
+
+.tabela table #preco{
+    text-align: right;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    font-weight: bold;
+    background-color: rgb(250, 241, 221);
     min-height: 150px;
+    width: 100%;
+}
+
+.footer li{
+    position: relative;
+    left: 50px;
+    bottom: 30px;   
+}
+
+.footer #icon-header-about{
+    align-items: center;
+}
+.footer .whatsapp, .email {
+    position: relative;
+    right: 10px;
+
+}
+
+a:-webkit-any(:link){
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+
 }
