@@ -39,8 +39,11 @@ body {
 .menu #home, #about, #officeHours, #contacts{
     padding: 5px;
     border-bottom: solid 1px black;
-    
+}
 
+.header #header-contacts{
+    background-color: rgb(240 , 240, 236);
+    width: 100%;
 }
 .header {
     background-color: rgb(234, 172, 142);
@@ -78,6 +81,35 @@ body {
 
 }
 
+.content li{
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+} 
+
+.content #linkscontatos {   
+    display: block;
+    padding: 5px;   
+}
+.content h1{
+    padding: 0 0 0 6px ;
+}
+
+.email-content{
+    font-weight: bold;
+}
+
+label.form{
+    display: block;
+    padding: 2px 0 8px 0;
+    width: 90px;
+    font-weight: bold;
+}
+
+.content #mapsform{
+    border: solid 1px black;
+    margin: 20px;
+}
 .servicos li{
     list-style-type: disc;
 }
@@ -107,17 +139,21 @@ body {
 
 }
 
+.tabela table #preco{
+    text-align: right;
+}
+
 .footer {
     font-weight: bold;
     background-color: rgb(250, 241, 221);
     min-height: 150px;
+    width: 100%;
 }
 
 .footer li{
     position: relative;
     left: 50px;
-    bottom: 30px;
-    
+    bottom: 30px;   
 }
 
 .footer #icon-header-about{
@@ -132,10 +168,12 @@ body {
 a:-webkit-any(:link){
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 a:visited {
     text-decoration: underline;
-    color: black
+    color: black;
+    font-weight: bold;
 
 }

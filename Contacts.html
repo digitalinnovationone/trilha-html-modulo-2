@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +9,71 @@
     <link rel="stylesheet" href="base.css">
     <link rel="shortcut icon" href="/Imagens/pet-logo.svg" type="image/x-icon" />
 </head>
+
 <body>
     <div class="wrapper">
         <div class="menu">
-            <!-- Aqui vai o seu menu -->
-            <ul>
-                <li><a href=""></a></li>
-                
+            <img src="/Imagens/pet-logo.svg" alt="logo-pet">
+            <ul id="linkPaginas">
+                <li id="home"><a href="Home.html">Página principal</a></li><br>
+                <li id="about"><a href="About.html">Conheça nossa clínica</a></li><br>
+                <li id="officeHours"><a href="Office Hours.html">Horário de atendimento</a></li><br>
+                <li id="contacts"><a href="Contacts.html">Contatos</a></li>
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
+                <img id="header-contacts" src="/Imagens/header-contacts.svg" alt="cachorro sorrindo" width="1100"
+                    height="220">
             </div>
-    
+
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <h1 id="contatos-title">Contatos: </h1>
+                <nav>
+                    <ul id="linkscontatos">
+                        <img class="whatsapp" src="/Imagens/whats-icon.svg" width="40" height="40"
+                            alt="icone do whatsapp">
+                        <li><a href=" https://wa.me/+5541998820176" target="_blank">Whatsapp: (41) 3333-3333</a></li>
+                        <img class="email-content" src="/Imagens/email-icon.svg" width="30" height="35"
+                            alt="ícone de email">
+                        <li><a href="mailto:matheusbdnz@gmail.com" target="_blank">Email:Contato@Petlife.com.br</a></li>
+                    </ul>
+                </nav>
+                <form class="formulario" onsubmit="" method="post">
+                    <div id="formulario-contato">
+                        <h2>Fale conosco: </h2>
+                        <label class="form" for="Nome: ">Nome: </label> <input type="text" name="Nome" id="name"><br>
+                        <label class="form" for="Email: ">Email: </label><input type="email" name="Nome" id="name"><br>
+                        <label class="form" for="assunto">Assunto: </label><input type="text" name="Nome"
+                            id="name"><br><br>
+                        <label style="font-weight: bold;" for="mensagem">Mensagem: </label><br>
+                        <textarea name="Mensagem" id="textarea" rows="10"></textarea><br>
+                        <button type="button">Enviar</button><br>
+                </form>
+
+                <iframe id="mapsform"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3600.7531534222035!2d-49.2547222!3d-25.513277799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDMwJzQ3LjgiUyA0OcKwMTUnMTcuMCJX!5e0!3m2!1spt-BR!2sbr!4v1701560949585!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:1;", allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
             </div>
-    
-            <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
-            </div>
+
+        </div>
+
+        <div class="footer">
+            <nav>
+                <ul id="linksContatos">
+                    <img class="whatsapp" src="/Imagens/whats-icon.svg" width="40" height="40"
+                        alt="icone do whatsapp">
+                    <li><a href=" https://wa.me/+5541998820176" target="_blank">Whatsapp: (41) 3333-3333</a></li>
+                    <img class="email" src="/Imagens/email-icon.svg" width="30" height="35" alt="ícone de email">
+                    <li><a href="mailto:matheusbdnz@gmail.com" target="_blank">Email:Contato@Petlife.com.br</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </body>
+
 </html>
