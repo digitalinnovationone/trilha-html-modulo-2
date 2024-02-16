@@ -71,4 +71,6 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
 
 Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
 
+**OBS:** Este projeto é somente usado para fins de auto desenvolvimento do aluno/aluna.
+
 Bora pra cima!
